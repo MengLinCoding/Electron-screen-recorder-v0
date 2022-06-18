@@ -1,0 +1,124 @@
+* {
+  user-select: none;
+  -webkit-app-region: no-drag;
+}
+
+body, nav, .nav--title {
+  -webkit-app-region: drag;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  position: relative;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.resizer {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top:0;
+  bottom:0;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  padding: 0.5rem 3rem;
+  width: 100%;
+  text-justify:auto;
+}
+
+.nav--options {
+  position: fixed;
+  top: 0.3rem;
+  right: 0.3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 10;
+}
+
+.selector {
+  height: 1.5rem;
+  width: 2.1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.15s ease;
+}
+
+.selector:hover {
+  background-color: #f0f0f0;
+}
+
+.selector--close:hover {
+  background-color: lightcoral;
+}
+
+
+.nav--icon {
+  height: 80%;
+}
+
+#exitBtn {
+  height: 70%;
+}
+
+
+
+
+.spacer {
+  flex: auto;
+  background-color: whitesmoke;
+}
+
+video {
+  margin-bottom: -0.4rem;
+  background-color: whitesmoke;
+}
+
+hr {
+  margin: 0rem 0.6rem;
+  height: 1px;
+  color: rgb(150, 150, 150);
+}
+
+
+.controls {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+
+.record--buttons {
+  padding: 1rem 3rem;
+}
+
+#videoSelectBtn {
+  text-decoration: none;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 2.8em;
+  margin: 0;
+  border-radius: 0;
+  transition: all 0.15s ease;
+}
+
+#videoSelectBtn:hover {
+  background-color: #f0f0f0;
+}
+
+#videoSelectBtn:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}

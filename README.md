@@ -1,6 +1,6 @@
 # Electron screen recorder v0
 Reskinned version of the electron recorder from Fireship. Changes were also made to the node packages and scripts to successfully build and run. Note: electron forge does not work.
-![image](https://user-images.githubusercontent.com/39476147/174426936-50a2629c-2411-49cc-a81b-a4410e24721a.png)
+<img src="https://user-images.githubusercontent.com/39476147/174426936-50a2629c-2411-49cc-a81b-a4410e24721a.png" height="100">
 
 
 
